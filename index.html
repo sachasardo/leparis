@@ -17,6 +17,32 @@
 </head>
 
 <body>
+  <div id="navbar">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-6 text-left ">
+          <img src="pic_mountain.jpg" alt="Mountain View" style="width:140px;height:60px">
+        </div>
+
+        <div class="col-xs-6 ">
+          <ul class="list-inline">
+            <li>
+              <a href="#Carte" class="btn btn-default" role="button">Carte</a>
+            </li>
+            <li>
+              <a href="#Soirées" class="btn btn-default" role="button">Soirées</a>
+            </li>
+            <li>
+              <a href="#contact" class="btn btn-default" role="button">Contacts</a>
+            </li>
+            <li>
+              <a href="#Surprise" class="btn btn-default" role="button">Surprise</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- Banner -->
   <div id="opacity">
@@ -33,7 +59,7 @@
   </div>
 
   <div class="bg-blue text-padded">
-    <div class="container text-center">
+    <div class="container text-center", id="Carte">
       <div class="row">
         <div class="col-xs-12 col-sm-6 col-md-3">
           <div class="card">
@@ -65,10 +91,30 @@
         </div>
       </div>
     </div>
+  </div>
 
+  <div class="card", id="Soirées">
+    <div class="bg-grey text-center text-padded">
+      <h2>Contact</h2>
+      <p>Telephone : 06 26 08 14 09</p>
+      <p>Mail : contact@linstantbyleparis.com</p>
+    </div>
+  </div>
 
+  <div class="card", id="contact">
+    <div class="bg-grey text-center text-padded">
+      <h2>Contact</h2>
+      <p>Telephone : 06 26 08 14 09</p>
+      <p>Mail : contact@linstantbyleparis.com</p>
+    </div>
+  </div>
 
-
+  <div class="card", id="Surprise">
+    <div class="bg-grey text-center text-padded">
+      <h2>Contact</h2>
+      <p>Telephone : 06 26 08 14 09</p>
+      <p>Mail : contact@linstantbyleparis.com</p>
+    </div>
   </div>
 
   <!-- Form -->
@@ -88,7 +134,7 @@
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
 
 <script type="text/javascript">
-var myLatlng = new google.maps.LatLng(48.854007,2.279627);
+var myLatlng = new google.maps.LatLng(48.859996, 2.291009);
 var myOptions = {
   zoom: 16,
   center: myLatlng,
@@ -111,9 +157,8 @@ var marker = new google.maps.Marker({
       <div class="row">
         <div class="col-xs-6 ">
           <ul class="list-inline">
-            <li><i class="fa fa-twitter"></i> <br></li>
-            <li><i class="fa fa-facebook"></i> <br></li>
-            <li><i class="fa fa-youtube"></i> <br></li>
+            <a href="https://www.facebook.com/TennisMatchFR"><i class="fa fa-twitter"> </i></a>
+            <a href="https://www.facebook.com/"><i class="fa fa-facebook"> </i></a>
           </ul>
         </div>
         <div class="col-xs-6 text-right ">
