@@ -1,5 +1,5 @@
 #banner {
-  background-image: url(../images/tour_eiffel2-ConvertImage.jpg);
+  background-image: url(../images/pagedegarde.png);
   background-size: cover;
   height: 750px;
   padding: 250px 30px;
@@ -7,12 +7,20 @@
  }
 
 #banner h1{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
   font-size: 50px;
+  font-weight: 400;
+  color: white;
+}
+#banner h3{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+  font-size: 30px;
   font-weight: 400;
   color: white;
 }
 
 #banner p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
   font-size : 25px;
   font-weight: 100;
   color: white;

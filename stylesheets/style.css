@@ -2,13 +2,13 @@
 @import url("footer.css");
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
   color: #141414;
   margin-top: 0;
 }
 
 .bg-blue {
-  background-color: #6BB9F0;
+  background-color: #2871B0;
   color: white;
   font-weight: 300;
 }
@@ -34,7 +34,7 @@ body {
   width: 250;
 }
 #navbar {
-  background-color: #EBF0F5;
+  background-color: transparent;
   top: 0px;
   bottom: 3px;
   width: 100%;
@@ -44,4 +44,10 @@ body {
 }
 #navbar li {
   padding: 10px;
+}
+#chef {
+  padding: 30px;
+}
+#footer {
+
 }
