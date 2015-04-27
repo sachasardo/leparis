@@ -11,6 +11,7 @@
   font-size: 50px;
   font-weight: 400;
   color: white;
+  margin-bottom: 25px;
 }
 #banner h3{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
@@ -25,5 +26,11 @@
   font-weight: 100;
   color: white;
   text-shadow: 0 2px 0 rgb(8, 8, 8);
+}
+#mce-EMAIL {
+  margin-right: 16px;
+}
+#align {
+  text-align: justify;
 }
 

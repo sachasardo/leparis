@@ -15,6 +15,9 @@ body {
 .bg-grey {
   background-color: grey;
 }
+.bg-orange {
+  background-color: orange;
+}
 
 .text-padded {
   padding-top: 2em;
@@ -50,4 +53,10 @@ body {
 }
 #footer {
 
+}
+.bg-blue strong {
+  color: orange;
+}
+#center {
+  text-align: center;
 }
