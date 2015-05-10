@@ -1,10 +1,10 @@
 #footer {
-  background-color: black;
   color: white;
   padding: 30px;
+  margin-left: -387px;
 }
 
 #footer i, a {
-  font-size: 25px;
+  font-size: 45px;
   padding: 10px;
 }
