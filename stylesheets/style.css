@@ -23,13 +23,20 @@ body {
   padding-top: 2em;
   padding-bottom: 3em;
 }
+.text-padded1 {
+  padding-top: 2em;
+  padding-bottom: 0em;
+}
 
 .bg-blue h2 {
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .bg-blue p {
-  font-size: 14px;
+  font-size: 16px;
+}
+.bg-white p {
+  font-size: 16px;
 }
 
 .img-circle {
@@ -56,6 +63,9 @@ body {
 }
 .bg-blue strong {
   color: orange;
+}
+.bg-white strong {
+  color: #2871B0;
 }
 #center {
   text-align: center;
