@@ -1,5 +1,5 @@
 #banner {
-  background-image: url(../images/PG.png);
+  background-image: url(../images/photocouv.jpg);
   background-size: cover;
   height: 950px;
   padding: 250px 30px;
@@ -33,7 +33,13 @@
   text-shadow: 0 2px 0 rgb(8, 8, 8);
 }
 #mce-EMAIL {
-  margin-right: 16px;
+  margin-right: 22px;
+  width: 220px;
+  margin-top: 30px;
+  padding: 5px;
+}
+#mc-embedded-subscribe {
+  background-color: #2871B0;
 }
 #align {
   text-align: justify;
@@ -43,5 +49,9 @@
 }
 #img1 {
   margin-left: 45px;
+}
+#reservation {
+  padding: 14px 30px;
+  font-size: 20px;
 }
 
