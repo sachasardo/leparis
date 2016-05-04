@@ -1,19 +1,10 @@
-<<<<<<< HEAD
-#footer {
-=======
+
 #section-footer {
   background-color: #292929;
->>>>>>> cd71ab72e655da6be005a76a5a3073d5b9118e7c
   color: white;
   padding: 30px;
-  margin-left: -387px;
 }
-<<<<<<< HEAD
 
-#footer i, a {
-  font-size: 45px;
-  padding: 10px;
-=======
 .footer{padding: 20px 0;}
 .social-link  a {
   font-size: 24px;
@@ -38,5 +29,5 @@
 .btn-subscribe{
 	border-radius: 0px;
 	height: 36px;
->>>>>>> cd71ab72e655da6be005a76a5a3073d5b9118e7c
+  padding: 0 20px;
 }
