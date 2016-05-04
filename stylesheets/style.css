@@ -1,3 +1,36 @@
+/* -------------------------------------
+ * Utilities classes
+ * These are examples of utilities classes
+ * Feel free to change them and create your own
+ * ------------------------------------- */
+.padded {
+  padding-top: 8em;
+  padding-bottom: 8em;
+}
+.bg-red {
+  background: $red;
+  color: white;
+}
+.bg-blue {
+  background: $blue;
+  color: white;
+}
+.bg-yellow {
+  background: $yellow;
+  color: white;
+}
+.bg-orange {
+  background: $orange;
+  color: white;
+}
+.bg-green {
+  background: $green;
+  color: white;
+}
+.bg-purple {
+  background: $purple;
+  color: white;
+}
 @import url("banner.css");
 @import url("footer.css");
 
@@ -22,10 +55,13 @@ body {
 .text-padded {
   padding-top: 2em;
   padding-bottom: 3em;
+<<<<<<< HEAD
 }
 .text-padded1 {
   padding-top: 2em;
   padding-bottom: 0em;
+=======
+>>>>>>> cd71ab72e655da6be005a76a5a3073d5b9118e7c
 }
 
 .bg-blue h2 {
@@ -44,17 +80,40 @@ body {
   width: 250;
 }
 #navbar {
+<<<<<<< HEAD
   background-color: transparent;
+=======
+  /*background-color: transparent;*/
+>>>>>>> cd71ab72e655da6be005a76a5a3073d5b9118e7c
   top: 0px;
   bottom: 3px;
   width: 100%;
   position: absolute;
+<<<<<<< HEAD
   height: 60px;
   text-align: right;
 }
 #navbar li {
   padding: 10px;
 }
+=======
+  height: 50px;
+  text-align: right;
+}
+#navbar li{
+  border-left:1px #ccc solid;
+}
+#navbar li a{
+  margin: 5px 0;
+  font-size: 16px;
+  color: #2871B0;
+}
+#navbar li a:hover{
+  color: #4d4d4d;
+}
+.navbar-header{height: 55px;}
+.navbar-brand img{margin-left: 40px;}
+>>>>>>> cd71ab72e655da6be005a76a5a3073d5b9118e7c
 #chef {
   padding: 30px;
 }
@@ -64,9 +123,19 @@ body {
 .bg-blue strong {
   color: orange;
 }
+<<<<<<< HEAD
 .bg-white strong {
   color: #2871B0;
 }
 #center {
   text-align: center;
 }
+=======
+#center {
+  text-align: center;
+}
+
+
+/********************/
+.content{padding-top: 100px;}
+>>>>>>> cd71ab72e655da6be005a76a5a3073d5b9118e7c
