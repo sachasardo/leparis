@@ -1,8 +1,29 @@
-#footer {
-  background-color: black;
+#section-footer {
+  background-color: #292929;
   color: white;
 }
-
-#footer i {
-  font-size: 25px;
+.footer{padding: 20px 0;}
+.social-link  a {
+  font-size: 24px;
+  margin: 0px 10px;
+  color:#fff;
+}
+.social-link  a:hover {
+  color:#2871B0;
+}
+.social-link a .fa-facebook {
+  
+}
+.subscribe-me{
+	display: inline-block;
+}
+.subscribe-me #mce-EMAIL{
+	height: 35px;
+	border:1px #ccc solid; 
+	border-radius: 0px;
+	color: #000;
+}
+.btn-subscribe{
+	border-radius: 0px;
+	height: 36px;
 }
