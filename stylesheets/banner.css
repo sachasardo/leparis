@@ -5,7 +5,7 @@ background-image: url(../images/photocouv.min.jpg);
   background-position: center center;
   }
 #banner {
-  
+
   padding: 196px 0;
  }
 
@@ -27,6 +27,7 @@ background-image: url(../images/photocouv.min.jpg);
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
   font-size : 25px;
   font-weight: 100;
+  margin-top: -35px;
   color: white;
   text-shadow: 0 2px 0 rgb(8, 8, 8);
 }
